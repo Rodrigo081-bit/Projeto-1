@@ -16,7 +16,7 @@ function verificar() {
         if (fsex[0].checked) {
             genero = 'Masculino';
             if(idade >=0 && idade <10){
-                //Criança
+                //Criançass
                 img.setAttribute('src', 'png.manhã.png')
             } else if (idade <21){
                 //Jovem
@@ -37,7 +37,7 @@ function verificar() {
             } else if ( idade < 50){
                 //Adulto
                 img.setAttribute('src', 'png.tarde.png')
-            }else{
+            }{
                 //Idoso
             }
          } 
