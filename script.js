@@ -24,8 +24,6 @@ function verificar() {
             } else if ( idade < 50){
                 //Adulto
                 img.setAttribute('src', 'png.noite.png')
-            }else{
-                //Idoso
             }if (fsex[1].checked) {
             genero = 'Feminino';
             if(idade >=0 && idade <10){
@@ -37,10 +35,8 @@ function verificar() {
             } else if ( idade < 50){
                 //Adulto
                 img.setAttribute('src', 'png.tarde.png')
-            }{
-                //Idoso
             }
-         } 
+            } 
          
         res.innerHTML = `Idade calculada: ${idade} anos<br>Gênero: ${genero}`;
         res.appendChild(img)
